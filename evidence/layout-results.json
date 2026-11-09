@@ -1,0 +1,5381 @@
+{
+  "python": "3.13.15",
+  "platform": "Windows",
+  "playwright": "1.64.1",
+  "results": [
+    {
+      "width": 320,
+      "height": 844,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 19.1875,
+            "y": 212,
+            "width": 281.625,
+            "height": 509.75,
+            "right": 300.8125,
+            "bottom": 721.75
+          },
+          ".hero-visual": {
+            "x": 19.1875,
+            "y": 733.75,
+            "width": 281.625,
+            "height": 285,
+            "right": 300.8125,
+            "bottom": 1018.75
+          },
+          ".hero-actions": {
+            "x": 19.1875,
+            "y": 567.75,
+            "width": 281.625,
+            "height": 103,
+            "right": 300.8125,
+            "bottom": 670.75
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 173,
+            "right": 320,
+            "bottom": 173
+          },
+          ".nav": {
+            "x": 19.1875,
+            "y": 116,
+            "width": 281.625,
+            "height": 44,
+            "right": 300.8125,
+            "bottom": 160
+          },
+          ".header-cta": {
+            "x": 19.1875,
+            "y": 64,
+            "width": 145.109375,
+            "height": 44,
+            "right": 164.296875,
+            "bottom": 108
+          },
+          ".brand": {
+            "x": 19.1875,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 160.171875,
+            "bottom": 56
+          },
+          ".partners": {
+            "x": 0,
+            "y": 1046.75,
+            "width": 320,
+            "height": 122,
+            "right": 320,
+            "bottom": 1168.75
+          },
+          ".services": {
+            "x": 0,
+            "y": 1168.75,
+            "width": 320,
+            "height": 859.34375,
+            "right": 320,
+            "bottom": 2028.09375
+          }
+        },
+        "cards": [
+          {
+            "x": 19.1875,
+            "y": 1374.75,
+            "width": 281.625,
+            "height": 192.78125,
+            "right": 300.8125,
+            "bottom": 1567.53125
+          },
+          {
+            "x": 19.1875,
+            "y": 1581.53125,
+            "width": 281.625,
+            "height": 192.78125,
+            "right": 300.8125,
+            "bottom": 1774.3125
+          },
+          {
+            "x": 19.1875,
+            "y": 1788.3125,
+            "width": 281.625,
+            "height": 192.78125,
+            "right": 300.8125,
+            "bottom": 1981.09375
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 19.1875,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 160.171875,
+            "bottom": 56
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 19.1875,
+            "y": 116,
+            "width": 57.609375,
+            "height": 44,
+            "right": 76.796875,
+            "bottom": 160
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 98.796875,
+            "y": 116,
+            "width": 65.34375,
+            "height": 44,
+            "right": 164.140625,
+            "bottom": 160
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 186.140625,
+            "y": 116,
+            "width": 68.453125,
+            "height": 44,
+            "right": 254.59375,
+            "bottom": 160
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 19.1875,
+            "y": 64,
+            "width": 145.109375,
+            "height": 44,
+            "right": 164.296875,
+            "bottom": 108
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 19.1875,
+            "y": 567.75,
+            "width": 157.34375,
+            "height": 45,
+            "right": 176.53125,
+            "bottom": 612.75
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 19.1875,
+            "y": 626.75,
+            "width": 114.796875,
+            "height": 44,
+            "right": 133.984375,
+            "bottom": 670.75
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 320,
+      "height": 844,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 320,
+        "scrollWidth": 972,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "site-header",
+          "nav",
+          "A",
+          "A",
+          "header-cta",
+          "SPAN",
+          "hero",
+          "hero-content",
+          "eyebrow",
+          "hero-title",
+          "BR",
+          "EM",
+          "hero-description",
+          "hero-actions",
+          "hero-proof",
+          "hero-visual",
+          "decor-orb orb-one",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-top",
+          "panel-dots",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-menu",
+          "panel-content",
+          "visual-row",
+          "mini-label",
+          "positive-pill",
+          "H2",
+          "P",
+          "chart",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-bottom",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "floating-note",
+          "note-check",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "partners",
+          "partner-items",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "services",
+          "section-heading",
+          "services-title",
+          "P",
+          "service-grid",
+          "service-card",
+          "service-icon peach",
+          "H3",
+          "P",
+          "service-card",
+          "service-icon lavender",
+          "H3",
+          "P"
+        ],
+        "clippedText": [
+          "hero-title"
+        ],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 19.1875,
+            "y": 166,
+            "width": 440,
+            "height": 377.21875,
+            "right": 459.1875,
+            "bottom": 543.21875
+          },
+          ".hero-visual": {
+            "x": 554.1875,
+            "y": 111,
+            "width": 410,
+            "height": 285,
+            "right": 964.1875,
+            "bottom": 396
+          },
+          ".hero-actions": {
+            "x": 19.1875,
+            "y": 447.21875,
+            "width": 440,
+            "height": 45,
+            "right": 459.1875,
+            "bottom": 492.21875
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 650,
+            "height": 72,
+            "right": 650,
+            "bottom": 72
+          },
+          ".nav": {
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          ".header-cta": {
+            "x": 485.703125,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 630.8125,
+            "bottom": 57.5
+          },
+          ".brand": {
+            "x": 19.1875,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 160.171875,
+            "bottom": 57.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 752,
+            "width": 750,
+            "height": 64,
+            "right": 750,
+            "bottom": 816
+          },
+          ".services": {
+            "x": 0,
+            "y": 816,
+            "width": 780,
+            "height": 396.78125,
+            "right": 780,
+            "bottom": 1212.78125
+          }
+        },
+        "cards": [
+          {
+            "x": 19.1875,
+            "y": 973,
+            "width": 237.875,
+            "height": 192.78125,
+            "right": 257.0625,
+            "bottom": 1165.78125
+          },
+          {
+            "x": 271.0625,
+            "y": 1021,
+            "width": 237.875,
+            "height": 192.78125,
+            "right": 508.9375,
+            "bottom": 1213.78125
+          },
+          {
+            "x": 522.9375,
+            "y": 973,
+            "width": 237.875,
+            "height": 192.78125,
+            "right": 760.8125,
+            "bottom": 1165.78125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 19.1875,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 160.171875,
+            "bottom": 57.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 276.84375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 284.84375,
+            "y": 13.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 350.1875,
+            "bottom": 57.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 358.1875,
+            "y": 13.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 485.703125,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 630.8125,
+            "bottom": 57.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 74.1875,
+            "y": 447.21875,
+            "width": 157.34375,
+            "height": 45,
+            "right": 231.53125,
+            "bottom": 492.21875
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 190.53125,
+            "y": 447.71875,
+            "width": 114.796875,
+            "height": 44,
+            "right": 305.328125,
+            "bottom": 491.71875
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 22.5,
+            "y": 160,
+            "width": 330,
+            "height": 406.125,
+            "right": 352.5,
+            "bottom": 566.125
+          },
+          ".hero-visual": {
+            "x": 22.5,
+            "y": 578.125,
+            "width": 330,
+            "height": 285,
+            "right": 352.5,
+            "bottom": 863.125
+          },
+          ".hero-actions": {
+            "x": 22.5,
+            "y": 470.125,
+            "width": 330,
+            "height": 45,
+            "right": 352.5,
+            "bottom": 515.125
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 121,
+            "right": 375,
+            "bottom": 121
+          },
+          ".nav": {
+            "x": 22.5,
+            "y": 64,
+            "width": 330,
+            "height": 44,
+            "right": 352.5,
+            "bottom": 108
+          },
+          ".header-cta": {
+            "x": 207.390625,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 352.5,
+            "bottom": 56
+          },
+          ".brand": {
+            "x": 22.5,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 163.484375,
+            "bottom": 56
+          },
+          ".partners": {
+            "x": 0,
+            "y": 891.125,
+            "width": 375,
+            "height": 122,
+            "right": 375,
+            "bottom": 1013.125
+          },
+          ".services": {
+            "x": 0,
+            "y": 1013.125,
+            "width": 375,
+            "height": 789.953125,
+            "right": 375,
+            "bottom": 1803.078125
+          }
+        },
+        "cards": [
+          {
+            "x": 22.5,
+            "y": 1170.125,
+            "width": 330,
+            "height": 172.390625,
+            "right": 352.5,
+            "bottom": 1342.515625
+          },
+          {
+            "x": 22.5,
+            "y": 1356.515625,
+            "width": 330,
+            "height": 192.78125,
+            "right": 352.5,
+            "bottom": 1549.296875
+          },
+          {
+            "x": 22.5,
+            "y": 1563.296875,
+            "width": 330,
+            "height": 192.78125,
+            "right": 352.5,
+            "bottom": 1756.078125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 22.5,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 163.484375,
+            "bottom": 56
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 22.5,
+            "y": 64,
+            "width": 57.609375,
+            "height": 44,
+            "right": 80.109375,
+            "bottom": 108
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 102.109375,
+            "y": 64,
+            "width": 65.34375,
+            "height": 44,
+            "right": 167.453125,
+            "bottom": 108
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 189.453125,
+            "y": 64,
+            "width": 68.453125,
+            "height": 44,
+            "right": 257.90625,
+            "bottom": 108
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 207.390625,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 352.5,
+            "bottom": 56
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 22.5,
+            "y": 470.125,
+            "width": 157.34375,
+            "height": 45,
+            "right": 179.84375,
+            "bottom": 515.125
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 193.84375,
+            "y": 470.625,
+            "width": 114.796875,
+            "height": 44,
+            "right": 308.640625,
+            "bottom": 514.625
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 375,
+        "scrollWidth": 976,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "site-header",
+          "nav",
+          "A",
+          "header-cta",
+          "SPAN",
+          "hero",
+          "hero-content",
+          "eyebrow",
+          "hero-title",
+          "BR",
+          "EM",
+          "hero-description",
+          "hero-actions",
+          "hero-proof",
+          "hero-visual",
+          "decor-orb orb-one",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-top",
+          "panel-dots",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-menu",
+          "panel-content",
+          "visual-row",
+          "mini-label",
+          "positive-pill",
+          "H2",
+          "P",
+          "chart",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-bottom",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "floating-note",
+          "note-check",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "partners",
+          "partner-items",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "services",
+          "section-heading",
+          "services-title",
+          "P",
+          "service-grid",
+          "service-card",
+          "H3",
+          "P",
+          "service-card",
+          "service-icon lavender",
+          "H3",
+          "P"
+        ],
+        "clippedText": [
+          "hero-title"
+        ],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 22.5,
+            "y": 166,
+            "width": 440,
+            "height": 377.21875,
+            "right": 462.5,
+            "bottom": 543.21875
+          },
+          ".hero-visual": {
+            "x": 557.5,
+            "y": 111,
+            "width": 410,
+            "height": 285,
+            "right": 967.5,
+            "bottom": 396
+          },
+          ".hero-actions": {
+            "x": 22.5,
+            "y": 447.21875,
+            "width": 440,
+            "height": 45,
+            "right": 462.5,
+            "bottom": 492.21875
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 650,
+            "height": 72,
+            "right": 650,
+            "bottom": 72
+          },
+          ".nav": {
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          ".header-cta": {
+            "x": 482.390625,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 627.5,
+            "bottom": 57.5
+          },
+          ".brand": {
+            "x": 22.5,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 163.484375,
+            "bottom": 57.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 752,
+            "width": 750,
+            "height": 64,
+            "right": 750,
+            "bottom": 816
+          },
+          ".services": {
+            "x": 0,
+            "y": 816,
+            "width": 780,
+            "height": 396.78125,
+            "right": 780,
+            "bottom": 1212.78125
+          }
+        },
+        "cards": [
+          {
+            "x": 22.5,
+            "y": 973,
+            "width": 235.65625,
+            "height": 192.78125,
+            "right": 258.15625,
+            "bottom": 1165.78125
+          },
+          {
+            "x": 272.15625,
+            "y": 1021,
+            "width": 235.671875,
+            "height": 192.78125,
+            "right": 507.828125,
+            "bottom": 1213.78125
+          },
+          {
+            "x": 521.828125,
+            "y": 973,
+            "width": 235.671875,
+            "height": 192.78125,
+            "right": 757.5,
+            "bottom": 1165.78125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 22.5,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 163.484375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 276.84375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 284.84375,
+            "y": 13.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 350.1875,
+            "bottom": 57.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 358.1875,
+            "y": 13.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 482.390625,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 627.5,
+            "bottom": 57.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 77.5,
+            "y": 447.21875,
+            "width": 157.34375,
+            "height": 45,
+            "right": 234.84375,
+            "bottom": 492.21875
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 193.84375,
+            "y": 447.71875,
+            "width": 114.796875,
+            "height": 44,
+            "right": 308.640625,
+            "bottom": 491.71875
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 23.390625,
+            "y": 160,
+            "width": 343.21875,
+            "height": 332.75,
+            "right": 366.609375,
+            "bottom": 492.75
+          },
+          ".hero-visual": {
+            "x": 23.390625,
+            "y": 504.75,
+            "width": 343.21875,
+            "height": 285,
+            "right": 366.609375,
+            "bottom": 789.75
+          },
+          ".hero-actions": {
+            "x": 23.390625,
+            "y": 396.75,
+            "width": 343.21875,
+            "height": 45,
+            "right": 366.609375,
+            "bottom": 441.75
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 121,
+            "right": 390,
+            "bottom": 121
+          },
+          ".nav": {
+            "x": 23.390625,
+            "y": 64,
+            "width": 343.21875,
+            "height": 44,
+            "right": 366.609375,
+            "bottom": 108
+          },
+          ".header-cta": {
+            "x": 221.5,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 366.609375,
+            "bottom": 56
+          },
+          ".brand": {
+            "x": 23.390625,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 164.375,
+            "bottom": 56
+          },
+          ".partners": {
+            "x": 0,
+            "y": 817.75,
+            "width": 390,
+            "height": 93,
+            "right": 390,
+            "bottom": 910.75
+          },
+          ".services": {
+            "x": 0,
+            "y": 910.75,
+            "width": 390,
+            "height": 789.953125,
+            "right": 390,
+            "bottom": 1700.703125
+          }
+        },
+        "cards": [
+          {
+            "x": 23.390625,
+            "y": 1067.75,
+            "width": 343.21875,
+            "height": 172.390625,
+            "right": 366.609375,
+            "bottom": 1240.140625
+          },
+          {
+            "x": 23.390625,
+            "y": 1254.140625,
+            "width": 343.21875,
+            "height": 192.78125,
+            "right": 366.609375,
+            "bottom": 1446.921875
+          },
+          {
+            "x": 23.390625,
+            "y": 1460.921875,
+            "width": 343.21875,
+            "height": 192.78125,
+            "right": 366.609375,
+            "bottom": 1653.703125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 23.390625,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 164.375,
+            "bottom": 56
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 23.390625,
+            "y": 64,
+            "width": 57.609375,
+            "height": 44,
+            "right": 81,
+            "bottom": 108
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 103,
+            "y": 64,
+            "width": 65.34375,
+            "height": 44,
+            "right": 168.34375,
+            "bottom": 108
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 190.34375,
+            "y": 64,
+            "width": 68.453125,
+            "height": 44,
+            "right": 258.796875,
+            "bottom": 108
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 221.5,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 366.609375,
+            "bottom": 56
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 23.390625,
+            "y": 396.75,
+            "width": 157.34375,
+            "height": 45,
+            "right": 180.734375,
+            "bottom": 441.75
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 194.734375,
+            "y": 397.25,
+            "width": 114.796875,
+            "height": 44,
+            "right": 309.53125,
+            "bottom": 441.25
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 390,
+        "scrollWidth": 977,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "site-header",
+          "nav",
+          "A",
+          "header-cta",
+          "SPAN",
+          "hero",
+          "hero-content",
+          "eyebrow",
+          "hero-title",
+          "BR",
+          "EM",
+          "hero-description",
+          "hero-actions",
+          "hero-proof",
+          "hero-visual",
+          "decor-orb orb-one",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-top",
+          "panel-dots",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-menu",
+          "panel-content",
+          "visual-row",
+          "mini-label",
+          "positive-pill",
+          "H2",
+          "P",
+          "chart",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-bottom",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "floating-note",
+          "note-check",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "partners",
+          "partner-items",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "services",
+          "section-heading",
+          "services-title",
+          "P",
+          "service-grid",
+          "service-card",
+          "H3",
+          "P",
+          "service-card",
+          "service-icon lavender",
+          "H3",
+          "P"
+        ],
+        "clippedText": [
+          "hero-title"
+        ],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 23.390625,
+            "y": 166,
+            "width": 440,
+            "height": 377.21875,
+            "right": 463.390625,
+            "bottom": 543.21875
+          },
+          ".hero-visual": {
+            "x": 558.390625,
+            "y": 111,
+            "width": 410,
+            "height": 285,
+            "right": 968.390625,
+            "bottom": 396
+          },
+          ".hero-actions": {
+            "x": 23.390625,
+            "y": 447.21875,
+            "width": 440,
+            "height": 45,
+            "right": 463.390625,
+            "bottom": 492.21875
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 650,
+            "height": 72,
+            "right": 650,
+            "bottom": 72
+          },
+          ".nav": {
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          ".header-cta": {
+            "x": 481.5,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 626.609375,
+            "bottom": 57.5
+          },
+          ".brand": {
+            "x": 23.390625,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 164.375,
+            "bottom": 57.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 752,
+            "width": 750,
+            "height": 64,
+            "right": 750,
+            "bottom": 816
+          },
+          ".services": {
+            "x": 0,
+            "y": 816,
+            "width": 780,
+            "height": 396.78125,
+            "right": 780,
+            "bottom": 1212.78125
+          }
+        },
+        "cards": [
+          {
+            "x": 23.390625,
+            "y": 973,
+            "width": 235.0625,
+            "height": 192.78125,
+            "right": 258.453125,
+            "bottom": 1165.78125
+          },
+          {
+            "x": 272.453125,
+            "y": 1021,
+            "width": 235.078125,
+            "height": 192.78125,
+            "right": 507.53125,
+            "bottom": 1213.78125
+          },
+          {
+            "x": 521.53125,
+            "y": 973,
+            "width": 235.078125,
+            "height": 192.78125,
+            "right": 756.609375,
+            "bottom": 1165.78125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 23.390625,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 164.375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 276.84375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 284.84375,
+            "y": 13.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 350.1875,
+            "bottom": 57.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 358.1875,
+            "y": 13.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 481.5,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 626.609375,
+            "bottom": 57.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 78.390625,
+            "y": 447.21875,
+            "width": 157.34375,
+            "height": 45,
+            "right": 235.734375,
+            "bottom": 492.21875
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 194.734375,
+            "y": 447.71875,
+            "width": 114.796875,
+            "height": 44,
+            "right": 309.53125,
+            "bottom": 491.71875
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 480,
+      "height": 844,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 480,
+        "scrollWidth": 480,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 28.796875,
+            "y": 160,
+            "width": 422.40625,
+            "height": 332.75,
+            "right": 451.203125,
+            "bottom": 492.75
+          },
+          ".hero-visual": {
+            "x": 28.796875,
+            "y": 504.75,
+            "width": 422.40625,
+            "height": 285,
+            "right": 451.203125,
+            "bottom": 789.75
+          },
+          ".hero-actions": {
+            "x": 28.796875,
+            "y": 396.75,
+            "width": 422.40625,
+            "height": 45,
+            "right": 451.203125,
+            "bottom": 441.75
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 480,
+            "height": 121,
+            "right": 480,
+            "bottom": 121
+          },
+          ".nav": {
+            "x": 28.796875,
+            "y": 64,
+            "width": 422.40625,
+            "height": 44,
+            "right": 451.203125,
+            "bottom": 108
+          },
+          ".header-cta": {
+            "x": 306.09375,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 451.203125,
+            "bottom": 56
+          },
+          ".brand": {
+            "x": 28.796875,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 169.78125,
+            "bottom": 56
+          },
+          ".partners": {
+            "x": 0,
+            "y": 817.75,
+            "width": 480,
+            "height": 93,
+            "right": 480,
+            "bottom": 910.75
+          },
+          ".services": {
+            "x": 0,
+            "y": 910.75,
+            "width": 480,
+            "height": 789.953125,
+            "right": 480,
+            "bottom": 1700.703125
+          }
+        },
+        "cards": [
+          {
+            "x": 28.796875,
+            "y": 1067.75,
+            "width": 422.40625,
+            "height": 172.390625,
+            "right": 451.203125,
+            "bottom": 1240.140625
+          },
+          {
+            "x": 28.796875,
+            "y": 1254.140625,
+            "width": 422.40625,
+            "height": 192.78125,
+            "right": 451.203125,
+            "bottom": 1446.921875
+          },
+          {
+            "x": 28.796875,
+            "y": 1460.921875,
+            "width": 422.40625,
+            "height": 192.78125,
+            "right": 451.203125,
+            "bottom": 1653.703125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 28.796875,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 169.78125,
+            "bottom": 56
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 28.796875,
+            "y": 64,
+            "width": 57.609375,
+            "height": 44,
+            "right": 86.40625,
+            "bottom": 108
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 108.40625,
+            "y": 64,
+            "width": 65.34375,
+            "height": 44,
+            "right": 173.75,
+            "bottom": 108
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 195.75,
+            "y": 64,
+            "width": 68.453125,
+            "height": 44,
+            "right": 264.203125,
+            "bottom": 108
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 306.09375,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 451.203125,
+            "bottom": 56
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 28.796875,
+            "y": 396.75,
+            "width": 157.34375,
+            "height": 45,
+            "right": 186.140625,
+            "bottom": 441.75
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 200.140625,
+            "y": 397.25,
+            "width": 114.796875,
+            "height": 44,
+            "right": 314.9375,
+            "bottom": 441.25
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 480,
+      "height": 844,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 480,
+        "scrollWidth": 982,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "site-header",
+          "header-cta",
+          "SPAN",
+          "hero",
+          "BR",
+          "hero-visual",
+          "decor-orb orb-one",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-top",
+          "panel-dots",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-menu",
+          "panel-content",
+          "visual-row",
+          "mini-label",
+          "positive-pill",
+          "H2",
+          "P",
+          "chart",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-bottom",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "floating-note",
+          "note-check",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "partners",
+          "partner-items",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "services",
+          "section-heading",
+          "services-title",
+          "P",
+          "service-grid",
+          "service-card",
+          "H3",
+          "P",
+          "service-card",
+          "service-icon lavender",
+          "H3",
+          "P"
+        ],
+        "clippedText": [
+          "hero-title"
+        ],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 28.796875,
+            "y": 166,
+            "width": 440,
+            "height": 377.21875,
+            "right": 468.796875,
+            "bottom": 543.21875
+          },
+          ".hero-visual": {
+            "x": 563.796875,
+            "y": 111,
+            "width": 410,
+            "height": 285,
+            "right": 973.796875,
+            "bottom": 396
+          },
+          ".hero-actions": {
+            "x": 28.796875,
+            "y": 447.21875,
+            "width": 440,
+            "height": 45,
+            "right": 468.796875,
+            "bottom": 492.21875
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 650,
+            "height": 72,
+            "right": 650,
+            "bottom": 72
+          },
+          ".nav": {
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          ".header-cta": {
+            "x": 476.09375,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 621.203125,
+            "bottom": 57.5
+          },
+          ".brand": {
+            "x": 28.796875,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 169.78125,
+            "bottom": 57.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 752,
+            "width": 750,
+            "height": 64,
+            "right": 750,
+            "bottom": 816
+          },
+          ".services": {
+            "x": 0,
+            "y": 816,
+            "width": 780,
+            "height": 396.78125,
+            "right": 780,
+            "bottom": 1212.78125
+          }
+        },
+        "cards": [
+          {
+            "x": 28.796875,
+            "y": 973,
+            "width": 231.46875,
+            "height": 192.78125,
+            "right": 260.265625,
+            "bottom": 1165.78125
+          },
+          {
+            "x": 274.265625,
+            "y": 1021,
+            "width": 231.46875,
+            "height": 192.78125,
+            "right": 505.734375,
+            "bottom": 1213.78125
+          },
+          {
+            "x": 519.734375,
+            "y": 973,
+            "width": 231.46875,
+            "height": 192.78125,
+            "right": 751.203125,
+            "bottom": 1165.78125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 28.796875,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 169.78125,
+            "bottom": 57.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 276.84375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 284.84375,
+            "y": 13.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 350.1875,
+            "bottom": 57.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 358.1875,
+            "y": 13.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 476.09375,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 621.203125,
+            "bottom": 57.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 83.796875,
+            "y": 447.21875,
+            "width": 157.34375,
+            "height": 45,
+            "right": 241.140625,
+            "bottom": 492.21875
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 200.140625,
+            "y": 447.71875,
+            "width": 114.796875,
+            "height": 44,
+            "right": 314.9375,
+            "bottom": 491.71875
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 481,
+      "height": 844,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 481,
+        "scrollWidth": 481,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 28.859375,
+            "y": 174,
+            "width": 423.28125,
+            "height": 347.375,
+            "right": 452.140625,
+            "bottom": 521.375
+          },
+          ".hero-visual": {
+            "x": 28.859375,
+            "y": 533.375,
+            "width": 423.28125,
+            "height": 390,
+            "right": 452.140625,
+            "bottom": 923.375
+          },
+          ".hero-actions": {
+            "x": 28.859375,
+            "y": 405.375,
+            "width": 423.28125,
+            "height": 52,
+            "right": 452.140625,
+            "bottom": 457.375
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 481,
+            "height": 121,
+            "right": 481,
+            "bottom": 121
+          },
+          ".nav": {
+            "x": 28.859375,
+            "y": 64,
+            "width": 423.28125,
+            "height": 44,
+            "right": 452.140625,
+            "bottom": 108
+          },
+          ".header-cta": {
+            "x": 307.03125,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 452.140625,
+            "bottom": 56
+          },
+          ".brand": {
+            "x": 28.859375,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 169.84375,
+            "bottom": 56
+          },
+          ".partners": {
+            "x": 0,
+            "y": 965.375,
+            "width": 481,
+            "height": 152,
+            "right": 481,
+            "bottom": 1117.375
+          },
+          ".services": {
+            "x": 0,
+            "y": 1117.375,
+            "width": 481,
+            "height": 871.5625,
+            "right": 481,
+            "bottom": 1988.9375
+          }
+        },
+        "cards": [
+          {
+            "x": 28.859375,
+            "y": 1300.375,
+            "width": 423.28125,
+            "height": 185,
+            "right": 452.140625,
+            "bottom": 1485.375
+          },
+          {
+            "x": 28.859375,
+            "y": 1507.375,
+            "width": 423.28125,
+            "height": 200.78125,
+            "right": 452.140625,
+            "bottom": 1708.15625
+          },
+          {
+            "x": 28.859375,
+            "y": 1730.15625,
+            "width": 423.28125,
+            "height": 200.78125,
+            "right": 452.140625,
+            "bottom": 1930.9375
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 28.859375,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 169.84375,
+            "bottom": 56
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 28.859375,
+            "y": 64,
+            "width": 57.609375,
+            "height": 44,
+            "right": 86.46875,
+            "bottom": 108
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 108.46875,
+            "y": 64,
+            "width": 65.34375,
+            "height": 44,
+            "right": 173.8125,
+            "bottom": 108
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 195.8125,
+            "y": 64,
+            "width": 68.453125,
+            "height": 44,
+            "right": 264.265625,
+            "bottom": 108
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 307.03125,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 452.140625,
+            "bottom": 56
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 28.859375,
+            "y": 405.375,
+            "width": 180.78125,
+            "height": 52,
+            "right": 209.640625,
+            "bottom": 457.375
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 233.640625,
+            "y": 409.375,
+            "width": 123.1875,
+            "height": 44,
+            "right": 356.828125,
+            "bottom": 453.375
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 481,
+      "height": 844,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 481,
+        "scrollWidth": 983,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "site-header",
+          "header-cta",
+          "SPAN",
+          "hero",
+          "BR",
+          "hero-visual",
+          "decor-orb orb-one",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-top",
+          "panel-dots",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-menu",
+          "panel-content",
+          "visual-row",
+          "mini-label",
+          "positive-pill",
+          "H2",
+          "P",
+          "chart",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-bottom",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "floating-note",
+          "note-check",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "partners",
+          "partner-items",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "services",
+          "section-heading",
+          "services-title",
+          "P",
+          "service-grid",
+          "service-card",
+          "H3",
+          "P",
+          "service-card",
+          "service-icon lavender",
+          "H3",
+          "P"
+        ],
+        "clippedText": [
+          "hero-title"
+        ],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 28.859375,
+            "y": 180,
+            "width": 440,
+            "height": 392.5625,
+            "right": 468.859375,
+            "bottom": 572.5625
+          },
+          ".hero-visual": {
+            "x": 563.859375,
+            "y": 125,
+            "width": 410,
+            "height": 390,
+            "right": 973.859375,
+            "bottom": 515
+          },
+          ".hero-actions": {
+            "x": 28.859375,
+            "y": 456.5625,
+            "width": 440,
+            "height": 52,
+            "right": 468.859375,
+            "bottom": 508.5625
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 650,
+            "height": 72,
+            "right": 650,
+            "bottom": 72
+          },
+          ".nav": {
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          ".header-cta": {
+            "x": 476.03125,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 621.140625,
+            "bottom": 57.5
+          },
+          ".brand": {
+            "x": 28.859375,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 169.84375,
+            "bottom": 57.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 752,
+            "width": 750,
+            "height": 84,
+            "right": 750,
+            "bottom": 836
+          },
+          ".services": {
+            "x": 0,
+            "y": 836,
+            "width": 780,
+            "height": 441.78125,
+            "right": 780,
+            "bottom": 1277.78125
+          }
+        },
+        "cards": [
+          {
+            "x": 28.859375,
+            "y": 1019,
+            "width": 230,
+            "height": 200.78125,
+            "right": 258.859375,
+            "bottom": 1219.78125
+          },
+          {
+            "x": 280.859375,
+            "y": 1067,
+            "width": 230,
+            "height": 200.78125,
+            "right": 510.859375,
+            "bottom": 1267.78125
+          },
+          {
+            "x": 532.859375,
+            "y": 1019,
+            "width": 230,
+            "height": 200.78125,
+            "right": 762.859375,
+            "bottom": 1219.78125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 28.859375,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 169.84375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 276.84375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 284.84375,
+            "y": 13.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 350.1875,
+            "bottom": 57.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 358.1875,
+            "y": 13.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 476.03125,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 621.140625,
+            "bottom": 57.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 83.859375,
+            "y": 456.5625,
+            "width": 180.78125,
+            "height": 52,
+            "right": 264.640625,
+            "bottom": 508.5625
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 233.640625,
+            "y": 460.5625,
+            "width": 123.1875,
+            "height": 44,
+            "right": 356.828125,
+            "bottom": 504.5625
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 768,
+      "height": 844,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 768,
+        "scrollWidth": 768,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 46.078125,
+            "y": 174,
+            "width": 675.84375,
+            "height": 379,
+            "right": 721.921875,
+            "bottom": 553
+          },
+          ".hero-visual": {
+            "x": 46.078125,
+            "y": 565,
+            "width": 675.84375,
+            "height": 390,
+            "right": 721.921875,
+            "bottom": 955
+          },
+          ".hero-actions": {
+            "x": 46.078125,
+            "y": 437,
+            "width": 675.84375,
+            "height": 52,
+            "right": 721.921875,
+            "bottom": 489
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 121,
+            "right": 768,
+            "bottom": 121
+          },
+          ".nav": {
+            "x": 46.078125,
+            "y": 64,
+            "width": 675.84375,
+            "height": 44,
+            "right": 721.921875,
+            "bottom": 108
+          },
+          ".header-cta": {
+            "x": 576.8125,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 721.921875,
+            "bottom": 56
+          },
+          ".brand": {
+            "x": 46.078125,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 187.0625,
+            "bottom": 56
+          },
+          ".partners": {
+            "x": 0,
+            "y": 997,
+            "width": 768,
+            "height": 101,
+            "right": 768,
+            "bottom": 1098
+          },
+          ".services": {
+            "x": 0,
+            "y": 1098,
+            "width": 768,
+            "height": 871.5625,
+            "right": 768,
+            "bottom": 1969.5625
+          }
+        },
+        "cards": [
+          {
+            "x": 46.078125,
+            "y": 1281,
+            "width": 675.84375,
+            "height": 185,
+            "right": 721.921875,
+            "bottom": 1466
+          },
+          {
+            "x": 46.078125,
+            "y": 1488,
+            "width": 675.84375,
+            "height": 200.78125,
+            "right": 721.921875,
+            "bottom": 1688.78125
+          },
+          {
+            "x": 46.078125,
+            "y": 1710.78125,
+            "width": 675.84375,
+            "height": 200.78125,
+            "right": 721.921875,
+            "bottom": 1911.5625
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 46.078125,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 187.0625,
+            "bottom": 56
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 46.078125,
+            "y": 64,
+            "width": 57.609375,
+            "height": 44,
+            "right": 103.6875,
+            "bottom": 108
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 125.6875,
+            "y": 64,
+            "width": 65.34375,
+            "height": 44,
+            "right": 191.03125,
+            "bottom": 108
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 213.03125,
+            "y": 64,
+            "width": 68.453125,
+            "height": 44,
+            "right": 281.484375,
+            "bottom": 108
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 576.8125,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 721.921875,
+            "bottom": 56
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 46.078125,
+            "y": 437,
+            "width": 180.78125,
+            "height": 52,
+            "right": 226.859375,
+            "bottom": 489
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 250.859375,
+            "y": 441,
+            "width": 123.1875,
+            "height": 44,
+            "right": 374.046875,
+            "bottom": 485
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 768,
+      "height": 844,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 768,
+        "scrollWidth": 1001,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "hero-visual",
+          "decor-orb orb-one",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-top",
+          "SPAN",
+          "panel-menu",
+          "panel-content",
+          "visual-row",
+          "positive-pill",
+          "H2",
+          "P",
+          "chart",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-bottom",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "floating-note",
+          "note-check",
+          "SPAN",
+          "STRONG",
+          "SMALL",
+          "services",
+          "service-card"
+        ],
+        "clippedText": [
+          "hero-title"
+        ],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 46.078125,
+            "y": 180,
+            "width": 440,
+            "height": 392.5625,
+            "right": 486.078125,
+            "bottom": 572.5625
+          },
+          ".hero-visual": {
+            "x": 581.078125,
+            "y": 125,
+            "width": 410,
+            "height": 390,
+            "right": 991.078125,
+            "bottom": 515
+          },
+          ".hero-actions": {
+            "x": 46.078125,
+            "y": 456.5625,
+            "width": 440,
+            "height": 52,
+            "right": 486.078125,
+            "bottom": 508.5625
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 650,
+            "height": 72,
+            "right": 650,
+            "bottom": 72
+          },
+          ".nav": {
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          ".header-cta": {
+            "x": 458.8125,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 603.921875,
+            "bottom": 57.5
+          },
+          ".brand": {
+            "x": 46.078125,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 187.0625,
+            "bottom": 57.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 752,
+            "width": 768,
+            "height": 84,
+            "right": 768,
+            "bottom": 836
+          },
+          ".services": {
+            "x": 0,
+            "y": 836,
+            "width": 780,
+            "height": 441.78125,
+            "right": 780,
+            "bottom": 1277.78125
+          }
+        },
+        "cards": [
+          {
+            "x": 46.078125,
+            "y": 1019,
+            "width": 230,
+            "height": 200.78125,
+            "right": 276.078125,
+            "bottom": 1219.78125
+          },
+          {
+            "x": 298.078125,
+            "y": 1067,
+            "width": 230,
+            "height": 200.78125,
+            "right": 528.078125,
+            "bottom": 1267.78125
+          },
+          {
+            "x": 550.078125,
+            "y": 1019,
+            "width": 230,
+            "height": 200.78125,
+            "right": 780.078125,
+            "bottom": 1219.78125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 46.078125,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 187.0625,
+            "bottom": 57.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 276.84375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 284.84375,
+            "y": 13.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 350.1875,
+            "bottom": 57.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 358.1875,
+            "y": 13.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 458.8125,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 603.921875,
+            "bottom": 57.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 101.078125,
+            "y": 456.5625,
+            "width": 180.78125,
+            "height": 52,
+            "right": 281.859375,
+            "bottom": 508.5625
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 250.859375,
+            "y": 460.5625,
+            "width": 123.1875,
+            "height": 44,
+            "right": 374.046875,
+            "bottom": 504.5625
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 850,
+      "height": 844,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 850,
+        "scrollWidth": 850,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 51,
+            "y": 174,
+            "width": 748,
+            "height": 379,
+            "right": 799,
+            "bottom": 553
+          },
+          ".hero-visual": {
+            "x": 51,
+            "y": 565,
+            "width": 748,
+            "height": 390,
+            "right": 799,
+            "bottom": 955
+          },
+          ".hero-actions": {
+            "x": 51,
+            "y": 437,
+            "width": 748,
+            "height": 52,
+            "right": 799,
+            "bottom": 489
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 850,
+            "height": 121,
+            "right": 850,
+            "bottom": 121
+          },
+          ".nav": {
+            "x": 51,
+            "y": 64,
+            "width": 748,
+            "height": 44,
+            "right": 799,
+            "bottom": 108
+          },
+          ".header-cta": {
+            "x": 653.890625,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 799,
+            "bottom": 56
+          },
+          ".brand": {
+            "x": 51,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 191.984375,
+            "bottom": 56
+          },
+          ".partners": {
+            "x": 0,
+            "y": 997,
+            "width": 850,
+            "height": 101,
+            "right": 850,
+            "bottom": 1098
+          },
+          ".services": {
+            "x": 0,
+            "y": 1098,
+            "width": 850,
+            "height": 871.5625,
+            "right": 850,
+            "bottom": 1969.5625
+          }
+        },
+        "cards": [
+          {
+            "x": 51,
+            "y": 1281,
+            "width": 748,
+            "height": 185,
+            "right": 799,
+            "bottom": 1466
+          },
+          {
+            "x": 51,
+            "y": 1488,
+            "width": 748,
+            "height": 200.78125,
+            "right": 799,
+            "bottom": 1688.78125
+          },
+          {
+            "x": 51,
+            "y": 1710.78125,
+            "width": 748,
+            "height": 200.78125,
+            "right": 799,
+            "bottom": 1911.5625
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 51,
+            "y": 12,
+            "width": 140.984375,
+            "height": 44,
+            "right": 191.984375,
+            "bottom": 56
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 51,
+            "y": 64,
+            "width": 57.609375,
+            "height": 44,
+            "right": 108.609375,
+            "bottom": 108
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 130.609375,
+            "y": 64,
+            "width": 65.34375,
+            "height": 44,
+            "right": 195.953125,
+            "bottom": 108
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 217.953125,
+            "y": 64,
+            "width": 68.453125,
+            "height": 44,
+            "right": 286.40625,
+            "bottom": 108
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 653.890625,
+            "y": 12,
+            "width": 145.109375,
+            "height": 44,
+            "right": 799,
+            "bottom": 56
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 51,
+            "y": 437,
+            "width": 180.78125,
+            "height": 52,
+            "right": 231.78125,
+            "bottom": 489
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 255.78125,
+            "y": 441,
+            "width": 123.1875,
+            "height": 44,
+            "right": 378.96875,
+            "bottom": 485
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 850,
+      "height": 844,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 850,
+        "scrollWidth": 1006,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "hero-visual",
+          "decor-orb orb-one",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-top",
+          "panel-menu",
+          "panel-content",
+          "visual-row",
+          "positive-pill",
+          "H2",
+          "P",
+          "chart",
+          "SPAN",
+          "SPAN",
+          "SPAN",
+          "panel-bottom",
+          "floating-note",
+          "note-check",
+          "SPAN",
+          "STRONG",
+          "SMALL"
+        ],
+        "clippedText": [
+          "hero-title"
+        ],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 51,
+            "y": 180,
+            "width": 440,
+            "height": 392.5625,
+            "right": 491,
+            "bottom": 572.5625
+          },
+          ".hero-visual": {
+            "x": 586,
+            "y": 125,
+            "width": 410,
+            "height": 390,
+            "right": 996,
+            "bottom": 515
+          },
+          ".hero-actions": {
+            "x": 51,
+            "y": 456.5625,
+            "width": 440,
+            "height": 52,
+            "right": 491,
+            "bottom": 508.5625
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 650,
+            "height": 72,
+            "right": 650,
+            "bottom": 72
+          },
+          ".nav": {
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          ".header-cta": {
+            "x": 453.890625,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 599,
+            "bottom": 57.5
+          },
+          ".brand": {
+            "x": 51,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 191.984375,
+            "bottom": 57.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 752,
+            "width": 850,
+            "height": 67,
+            "right": 850,
+            "bottom": 819
+          },
+          ".services": {
+            "x": 0,
+            "y": 819,
+            "width": 780,
+            "height": 441.78125,
+            "right": 780,
+            "bottom": 1260.78125
+          }
+        },
+        "cards": [
+          {
+            "x": 51,
+            "y": 1002,
+            "width": 230,
+            "height": 200.78125,
+            "right": 281,
+            "bottom": 1202.78125
+          },
+          {
+            "x": 303,
+            "y": 1050,
+            "width": 230,
+            "height": 200.78125,
+            "right": 533,
+            "bottom": 1250.78125
+          },
+          {
+            "x": 555,
+            "y": 1002,
+            "width": 230,
+            "height": 200.78125,
+            "right": 785,
+            "bottom": 1202.78125
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 51,
+            "y": 13.5,
+            "width": 140.984375,
+            "height": 44,
+            "right": 191.984375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 219.234375,
+            "y": 13.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 276.84375,
+            "bottom": 57.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 284.84375,
+            "y": 13.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 350.1875,
+            "bottom": 57.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 358.1875,
+            "y": 13.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 426.640625,
+            "bottom": 57.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 453.890625,
+            "y": 13.5,
+            "width": 145.109375,
+            "height": 44,
+            "right": 599,
+            "bottom": 57.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 106,
+            "y": 456.5625,
+            "width": 180.78125,
+            "height": 52,
+            "right": 286.78125,
+            "bottom": 508.5625
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 255.78125,
+            "y": 460.5625,
+            "width": 123.1875,
+            "height": 44,
+            "right": 378.96875,
+            "bottom": 504.5625
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 851,
+      "height": 800,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 851,
+        "scrollWidth": 851,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 59.5625,
+            "y": 206.84375,
+            "width": 354.953125,
+            "height": 353.3125,
+            "right": 414.515625,
+            "bottom": 560.15625
+          },
+          ".hero-visual": {
+            "x": 436.46875,
+            "y": 158.5,
+            "width": 354.96875,
+            "height": 450,
+            "right": 791.4375,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 59.5625,
+            "y": 444.15625,
+            "width": 354.953125,
+            "height": 52,
+            "right": 414.515625,
+            "bottom": 496.15625
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 851,
+            "height": 96,
+            "right": 851,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 288.734375,
+            "y": 25.5,
+            "width": 255.40625,
+            "height": 44,
+            "right": 544.140625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 616.515625,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 791.4375,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 59.5625,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 216.359375,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 686,
+            "width": 851,
+            "height": 124,
+            "right": 851,
+            "bottom": 810
+          },
+          ".services": {
+            "x": 0,
+            "y": 810,
+            "width": 851,
+            "height": 478,
+            "right": 851,
+            "bottom": 1288
+          }
+        },
+        "cards": [
+          {
+            "x": 59.5625,
+            "y": 1004,
+            "width": 229.28125,
+            "height": 206,
+            "right": 288.84375,
+            "bottom": 1210
+          },
+          {
+            "x": 310.84375,
+            "y": 1004,
+            "width": 229.296875,
+            "height": 206,
+            "right": 540.140625,
+            "bottom": 1210
+          },
+          {
+            "x": 562.140625,
+            "y": 1004,
+            "width": 229.296875,
+            "height": 206,
+            "right": 791.4375,
+            "bottom": 1210
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 59.5625,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 216.359375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 288.734375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 346.34375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 378.34375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 443.6875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 475.6875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 544.140625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 616.515625,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 791.4375,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 59.5625,
+            "y": 444.15625,
+            "width": 180.78125,
+            "height": 52,
+            "right": 240.34375,
+            "bottom": 496.15625
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 264.34375,
+            "y": 448.15625,
+            "width": 123.1875,
+            "height": 44,
+            "right": 387.53125,
+            "bottom": 492.15625
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 851,
+      "height": 800,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 851,
+        "scrollWidth": 933,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "hero-visual",
+          "decor-orb orb-one",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-top",
+          "panel-menu",
+          "panel-content",
+          "H2",
+          "P",
+          "chart",
+          "SPAN",
+          "panel-bottom",
+          "floating-note",
+          "SPAN",
+          "STRONG",
+          "SMALL"
+        ],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 59.5625,
+            "y": 272.84375,
+            "width": 354.953125,
+            "height": 353.3125,
+            "right": 414.515625,
+            "bottom": 626.15625
+          },
+          ".hero-visual": {
+            "x": 531.46875,
+            "y": 158.5,
+            "width": 354.96875,
+            "height": 450,
+            "right": 886.4375,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 59.5625,
+            "y": 510.15625,
+            "width": 354.953125,
+            "height": 52,
+            "right": 414.515625,
+            "bottom": 562.15625
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 851,
+            "height": 96,
+            "right": 851,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 382.734375,
+            "y": 25.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 590.140625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 616.515625,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 791.4375,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 59.5625,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 216.359375,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 686,
+            "width": 851,
+            "height": 124,
+            "right": 851,
+            "bottom": 810
+          },
+          ".services": {
+            "x": 0,
+            "y": 810,
+            "width": 851,
+            "height": 537.5625,
+            "right": 851,
+            "bottom": 1347.5625
+          }
+        },
+        "cards": [
+          {
+            "x": 59.5625,
+            "y": 1004,
+            "width": 286.453125,
+            "height": 265.5625,
+            "right": 346.015625,
+            "bottom": 1269.5625
+          },
+          {
+            "x": 368.015625,
+            "y": 1052,
+            "width": 155.875,
+            "height": 265.5625,
+            "right": 523.890625,
+            "bottom": 1317.5625
+          },
+          {
+            "x": 545.890625,
+            "y": 1004,
+            "width": 245.546875,
+            "height": 265.5625,
+            "right": 791.4375,
+            "bottom": 1269.5625
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 59.5625,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 216.359375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 382.734375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 440.34375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 448.34375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 513.6875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 521.6875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 590.140625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 616.515625,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 791.4375,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 114.5625,
+            "y": 510.15625,
+            "width": 180.78125,
+            "height": 52,
+            "right": 295.34375,
+            "bottom": 562.15625
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 264.34375,
+            "y": 514.15625,
+            "width": 123.1875,
+            "height": 44,
+            "right": 387.53125,
+            "bottom": 558.15625
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 1024,
+      "height": 800,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 1024,
+        "scrollWidth": 1024,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 71.671875,
+            "y": 204.640625,
+            "width": 427.125,
+            "height": 357.71875,
+            "right": 498.796875,
+            "bottom": 562.359375
+          },
+          ".hero-visual": {
+            "x": 525.203125,
+            "y": 158.5,
+            "width": 427.125,
+            "height": 450,
+            "right": 952.328125,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 71.671875,
+            "y": 446.359375,
+            "width": 427.125,
+            "height": 52,
+            "right": 498.796875,
+            "bottom": 498.359375
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 96,
+            "right": 1024,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 375.234375,
+            "y": 25.5,
+            "width": 255.40625,
+            "height": 44,
+            "right": 630.640625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 777.40625,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 952.328125,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 71.671875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 228.46875,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 686,
+            "width": 1024,
+            "height": 73,
+            "right": 1024,
+            "bottom": 759
+          },
+          ".services": {
+            "x": 0,
+            "y": 759,
+            "width": 1024,
+            "height": 478,
+            "right": 1024,
+            "bottom": 1237
+          }
+        },
+        "cards": [
+          {
+            "x": 71.671875,
+            "y": 953,
+            "width": 278.875,
+            "height": 206,
+            "right": 350.546875,
+            "bottom": 1159
+          },
+          {
+            "x": 372.546875,
+            "y": 953,
+            "width": 278.890625,
+            "height": 206,
+            "right": 651.4375,
+            "bottom": 1159
+          },
+          {
+            "x": 673.4375,
+            "y": 953,
+            "width": 278.875,
+            "height": 206,
+            "right": 952.3125,
+            "bottom": 1159
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 71.671875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 228.46875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 375.234375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 432.84375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 464.84375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 530.1875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 562.1875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 630.640625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 777.40625,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 952.328125,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 71.671875,
+            "y": 446.359375,
+            "width": 180.78125,
+            "height": 52,
+            "right": 252.453125,
+            "bottom": 498.359375
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 276.453125,
+            "y": 450.359375,
+            "width": 123.1875,
+            "height": 44,
+            "right": 399.640625,
+            "bottom": 494.359375
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 1024,
+      "height": 800,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 1024,
+        "scrollWidth": 1057,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "hero-visual",
+          "decor-orb orb-one",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-top",
+          "panel-content",
+          "floating-note",
+          "SPAN",
+          "STRONG",
+          "SMALL"
+        ],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 71.671875,
+            "y": 270.640625,
+            "width": 427.125,
+            "height": 357.71875,
+            "right": 498.796875,
+            "bottom": 628.359375
+          },
+          ".hero-visual": {
+            "x": 620.203125,
+            "y": 158.5,
+            "width": 427.125,
+            "height": 450,
+            "right": 1047.328125,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 71.671875,
+            "y": 512.359375,
+            "width": 427.125,
+            "height": 52,
+            "right": 498.796875,
+            "bottom": 564.359375
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 96,
+            "right": 1024,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 469.234375,
+            "y": 25.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 676.640625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 777.40625,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 952.328125,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 71.671875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 228.46875,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 686,
+            "width": 1024,
+            "height": 73,
+            "right": 1024,
+            "bottom": 759
+          },
+          ".services": {
+            "x": 0,
+            "y": 759,
+            "width": 1024,
+            "height": 517.171875,
+            "right": 1024,
+            "bottom": 1276.171875
+          }
+        },
+        "cards": [
+          {
+            "x": 71.671875,
+            "y": 953,
+            "width": 354.9375,
+            "height": 245.171875,
+            "right": 426.609375,
+            "bottom": 1198.171875
+          },
+          {
+            "x": 448.609375,
+            "y": 1001,
+            "width": 177.46875,
+            "height": 245.171875,
+            "right": 626.078125,
+            "bottom": 1246.171875
+          },
+          {
+            "x": 648.078125,
+            "y": 953,
+            "width": 304.25,
+            "height": 245.171875,
+            "right": 952.328125,
+            "bottom": 1198.171875
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 71.671875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 228.46875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 469.234375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 526.84375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 534.84375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 600.1875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 608.1875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 676.640625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 777.40625,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 952.328125,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 126.671875,
+            "y": 512.359375,
+            "width": 180.78125,
+            "height": 52,
+            "right": 307.453125,
+            "bottom": 564.359375
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 276.453125,
+            "y": 516.359375,
+            "width": 123.1875,
+            "height": 44,
+            "right": 399.640625,
+            "bottom": 560.359375
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 1280,
+        "scrollWidth": 1280,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 89.59375,
+            "y": 193.046875,
+            "width": 533.890625,
+            "height": 380.90625,
+            "right": 623.484375,
+            "bottom": 573.953125
+          },
+          ".hero-visual": {
+            "x": 656.5,
+            "y": 158.5,
+            "width": 533.90625,
+            "height": 450,
+            "right": 1190.40625,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 89.59375,
+            "y": 457.953125,
+            "width": 533.890625,
+            "height": 52,
+            "right": 623.484375,
+            "bottom": 509.953125
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96,
+            "right": 1280,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 503.234375,
+            "y": 25.5,
+            "width": 255.40625,
+            "height": 44,
+            "right": 758.640625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 1015.484375,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1190.40625,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 89.59375,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 246.390625,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 686,
+            "width": 1280,
+            "height": 73,
+            "right": 1280,
+            "bottom": 759
+          },
+          ".services": {
+            "x": 0,
+            "y": 759,
+            "width": 1280,
+            "height": 478,
+            "right": 1280,
+            "bottom": 1237
+          }
+        },
+        "cards": [
+          {
+            "x": 89.59375,
+            "y": 953,
+            "width": 352.265625,
+            "height": 206,
+            "right": 441.859375,
+            "bottom": 1159
+          },
+          {
+            "x": 463.859375,
+            "y": 953,
+            "width": 352.265625,
+            "height": 206,
+            "right": 816.125,
+            "bottom": 1159
+          },
+          {
+            "x": 838.125,
+            "y": 953,
+            "width": 352.28125,
+            "height": 206,
+            "right": 1190.40625,
+            "bottom": 1159
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 89.59375,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 246.390625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 503.234375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 560.84375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 592.84375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 658.1875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 690.1875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 758.640625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 1015.484375,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1190.40625,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 89.59375,
+            "y": 457.953125,
+            "width": 180.78125,
+            "height": 52,
+            "right": 270.375,
+            "bottom": 509.953125
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 294.375,
+            "y": 461.953125,
+            "width": 123.1875,
+            "height": 44,
+            "right": 417.5625,
+            "bottom": 505.953125
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 1280,
+        "scrollWidth": 1296,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "hero-visual",
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-content",
+          "floating-note"
+        ],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 89.59375,
+            "y": 259.046875,
+            "width": 533.890625,
+            "height": 380.90625,
+            "right": 623.484375,
+            "bottom": 639.953125
+          },
+          ".hero-visual": {
+            "x": 751.5,
+            "y": 158.5,
+            "width": 533.90625,
+            "height": 450,
+            "right": 1285.40625,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 89.59375,
+            "y": 523.953125,
+            "width": 533.890625,
+            "height": 52,
+            "right": 623.484375,
+            "bottom": 575.953125
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96,
+            "right": 1280,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 597.234375,
+            "y": 25.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 804.640625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 1015.484375,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1190.40625,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 89.59375,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 246.390625,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 686,
+            "width": 1280,
+            "height": 73,
+            "right": 1280,
+            "bottom": 759
+          },
+          ".services": {
+            "x": 0,
+            "y": 759,
+            "width": 1280,
+            "height": 478,
+            "right": 1280,
+            "bottom": 1237
+          }
+        },
+        "cards": [
+          {
+            "x": 89.59375,
+            "y": 953,
+            "width": 448.34375,
+            "height": 206,
+            "right": 537.9375,
+            "bottom": 1159
+          },
+          {
+            "x": 559.9375,
+            "y": 1001,
+            "width": 224.171875,
+            "height": 206,
+            "right": 784.109375,
+            "bottom": 1207
+          },
+          {
+            "x": 806.109375,
+            "y": 953,
+            "width": 384.296875,
+            "height": 206,
+            "right": 1190.40625,
+            "bottom": 1159
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 89.59375,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 246.390625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 597.234375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 654.84375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 662.84375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 728.1875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 736.1875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 804.640625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 1015.484375,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1190.40625,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 144.59375,
+            "y": 523.953125,
+            "width": 180.78125,
+            "height": 52,
+            "right": 325.375,
+            "bottom": 575.953125
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 294.375,
+            "y": 527.953125,
+            "width": 123.1875,
+            "height": 44,
+            "right": 417.5625,
+            "bottom": 571.953125
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 1440,
+      "height": 800,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 100.796875,
+            "y": 185.828125,
+            "width": 600.625,
+            "height": 395.34375,
+            "right": 701.421875,
+            "bottom": 581.171875
+          },
+          ".hero-visual": {
+            "x": 738.5625,
+            "y": 158.5,
+            "width": 600.640625,
+            "height": 450,
+            "right": 1339.203125,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 100.796875,
+            "y": 465.171875,
+            "width": 600.625,
+            "height": 52,
+            "right": 701.421875,
+            "bottom": 517.171875
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 96,
+            "right": 1440,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 583.234375,
+            "y": 25.5,
+            "width": 255.40625,
+            "height": 44,
+            "right": 838.640625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 1164.28125,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1339.203125,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 100.796875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 257.59375,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 686,
+            "width": 1440,
+            "height": 73,
+            "right": 1440,
+            "bottom": 759
+          },
+          ".services": {
+            "x": 0,
+            "y": 759,
+            "width": 1440,
+            "height": 478,
+            "right": 1440,
+            "bottom": 1237
+          }
+        },
+        "cards": [
+          {
+            "x": 100.796875,
+            "y": 953,
+            "width": 398.125,
+            "height": 206,
+            "right": 498.921875,
+            "bottom": 1159
+          },
+          {
+            "x": 520.921875,
+            "y": 953,
+            "width": 398.140625,
+            "height": 206,
+            "right": 919.0625,
+            "bottom": 1159
+          },
+          {
+            "x": 941.0625,
+            "y": 953,
+            "width": 398.125,
+            "height": 206,
+            "right": 1339.1875,
+            "bottom": 1159
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 100.796875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 257.59375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 583.234375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 640.84375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 672.84375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 738.1875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 770.1875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 838.640625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 1164.28125,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1339.203125,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 100.796875,
+            "y": 465.171875,
+            "width": 180.78125,
+            "height": 52,
+            "right": 281.578125,
+            "bottom": 517.171875
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 305.578125,
+            "y": 469.171875,
+            "width": 123.1875,
+            "height": 44,
+            "right": 428.765625,
+            "bottom": 513.171875
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 1440,
+      "height": 800,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 1440,
+        "scrollWidth": 1446,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [
+          "decor-orb orb-two",
+          "visual-panel",
+          "panel-content",
+          "floating-note"
+        ],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 100.796875,
+            "y": 251.828125,
+            "width": 600.625,
+            "height": 395.34375,
+            "right": 701.421875,
+            "bottom": 647.171875
+          },
+          ".hero-visual": {
+            "x": 833.5625,
+            "y": 158.5,
+            "width": 600.640625,
+            "height": 450,
+            "right": 1434.203125,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 100.796875,
+            "y": 531.171875,
+            "width": 600.625,
+            "height": 52,
+            "right": 701.421875,
+            "bottom": 583.171875
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 96,
+            "right": 1440,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 677.234375,
+            "y": 25.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 884.640625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 1164.28125,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1339.203125,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 100.796875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 257.59375,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 0,
+            "y": 686,
+            "width": 1440,
+            "height": 73,
+            "right": 1440,
+            "bottom": 759
+          },
+          ".services": {
+            "x": 0,
+            "y": 759,
+            "width": 1440,
+            "height": 478,
+            "right": 1440,
+            "bottom": 1237
+          }
+        },
+        "cards": [
+          {
+            "x": 100.796875,
+            "y": 953,
+            "width": 506.703125,
+            "height": 206,
+            "right": 607.5,
+            "bottom": 1159
+          },
+          {
+            "x": 629.5,
+            "y": 1001,
+            "width": 253.359375,
+            "height": 206,
+            "right": 882.859375,
+            "bottom": 1207
+          },
+          {
+            "x": 904.859375,
+            "y": 953,
+            "width": 434.34375,
+            "height": 206,
+            "right": 1339.203125,
+            "bottom": 1159
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 100.796875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 257.59375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 677.234375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 734.84375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 742.84375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 808.1875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 816.1875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 884.640625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 1164.28125,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1339.203125,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 155.796875,
+            "y": 531.171875,
+            "width": 180.78125,
+            "height": 52,
+            "right": 336.578125,
+            "bottom": 583.171875
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 305.578125,
+            "y": 535.171875,
+            "width": 123.1875,
+            "height": 44,
+            "right": 428.765625,
+            "bottom": 579.171875
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 1920,
+      "height": 800,
+      "state": "after",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "broken": false,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 340.796875,
+            "y": 180.859375,
+            "width": 600.625,
+            "height": 405.28125,
+            "right": 941.421875,
+            "bottom": 586.140625
+          },
+          ".hero-visual": {
+            "x": 978.5625,
+            "y": 158.5,
+            "width": 600.640625,
+            "height": 450,
+            "right": 1579.203125,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 340.796875,
+            "y": 470.140625,
+            "width": 600.625,
+            "height": 52,
+            "right": 941.421875,
+            "bottom": 522.140625
+          },
+          ".site-header": {
+            "x": 240,
+            "y": 0,
+            "width": 1440,
+            "height": 96,
+            "right": 1680,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 823.234375,
+            "y": 25.5,
+            "width": 255.40625,
+            "height": 44,
+            "right": 1078.640625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 1404.28125,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1579.203125,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 340.796875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 497.59375,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 240,
+            "y": 686,
+            "width": 1440,
+            "height": 73,
+            "right": 1680,
+            "bottom": 759
+          },
+          ".services": {
+            "x": 240,
+            "y": 759,
+            "width": 1440,
+            "height": 478,
+            "right": 1680,
+            "bottom": 1237
+          }
+        },
+        "cards": [
+          {
+            "x": 340.796875,
+            "y": 953,
+            "width": 398.125,
+            "height": 206,
+            "right": 738.921875,
+            "bottom": 1159
+          },
+          {
+            "x": 760.921875,
+            "y": 953,
+            "width": 398.140625,
+            "height": 206,
+            "right": 1159.0625,
+            "bottom": 1159
+          },
+          {
+            "x": 1181.0625,
+            "y": 953,
+            "width": 398.125,
+            "height": 206,
+            "right": 1579.1875,
+            "bottom": 1159
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 340.796875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 497.59375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 823.234375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 880.84375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 912.84375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 978.1875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 1010.1875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 1078.640625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 1404.28125,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1579.203125,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 340.796875,
+            "y": 470.140625,
+            "width": 180.78125,
+            "height": 52,
+            "right": 521.578125,
+            "bottom": 522.140625
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 545.578125,
+            "y": 474.140625,
+            "width": 123.1875,
+            "height": 44,
+            "right": 668.765625,
+            "bottom": 518.140625
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true,
+        "contrast": {
+          "tested": 43,
+          "minimum": 3.54,
+          "failures": []
+        }
+      },
+      "browser": "chromium"
+    },
+    {
+      "width": 1920,
+      "height": 800,
+      "state": "before",
+      "failures": [],
+      "measurements": {
+        "clientWidth": 1920,
+        "scrollWidth": 1920,
+        "broken": true,
+        "shellOverflow": "visible",
+        "outside": [],
+        "clippedText": [],
+        "obscuredText": [],
+        "blocks": {
+          ".hero-content": {
+            "x": 340.796875,
+            "y": 246.859375,
+            "width": 600.625,
+            "height": 405.28125,
+            "right": 941.421875,
+            "bottom": 652.140625
+          },
+          ".hero-visual": {
+            "x": 1073.5625,
+            "y": 158.5,
+            "width": 600.640625,
+            "height": 450,
+            "right": 1674.203125,
+            "bottom": 608.5
+          },
+          ".hero-actions": {
+            "x": 340.796875,
+            "y": 536.140625,
+            "width": 600.625,
+            "height": 52,
+            "right": 941.421875,
+            "bottom": 588.140625
+          },
+          ".site-header": {
+            "x": 240,
+            "y": 0,
+            "width": 1440,
+            "height": 96,
+            "right": 1680,
+            "bottom": 96
+          },
+          ".nav": {
+            "x": 917.234375,
+            "y": 25.5,
+            "width": 207.40625,
+            "height": 44,
+            "right": 1124.640625,
+            "bottom": 69.5
+          },
+          ".header-cta": {
+            "x": 1404.28125,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1579.203125,
+            "bottom": 69.5
+          },
+          ".brand": {
+            "x": 340.796875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 497.59375,
+            "bottom": 69.5
+          },
+          ".partners": {
+            "x": 240,
+            "y": 686,
+            "width": 1440,
+            "height": 73,
+            "right": 1680,
+            "bottom": 759
+          },
+          ".services": {
+            "x": 240,
+            "y": 759,
+            "width": 1440,
+            "height": 478,
+            "right": 1680,
+            "bottom": 1237
+          }
+        },
+        "cards": [
+          {
+            "x": 340.796875,
+            "y": 953,
+            "width": 506.703125,
+            "height": 206,
+            "right": 847.5,
+            "bottom": 1159
+          },
+          {
+            "x": 869.5,
+            "y": 1001,
+            "width": 253.359375,
+            "height": 206,
+            "right": 1122.859375,
+            "bottom": 1207
+          },
+          {
+            "x": 1144.859375,
+            "y": 953,
+            "width": 434.34375,
+            "height": 206,
+            "right": 1579.203125,
+            "bottom": 1159
+          }
+        ],
+        "links": [
+          {
+            "text": "northline.",
+            "href": "./index.html",
+            "visible": true,
+            "x": 340.796875,
+            "y": 25.5,
+            "width": 156.796875,
+            "height": 44,
+            "right": 497.59375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Services",
+            "href": "#services",
+            "visible": true,
+            "x": 917.234375,
+            "y": 25.5,
+            "width": 57.609375,
+            "height": 44,
+            "right": 974.84375,
+            "bottom": 69.5
+          },
+          {
+            "text": "Approach",
+            "href": "#approach",
+            "visible": true,
+            "x": 982.84375,
+            "y": 25.5,
+            "width": 65.34375,
+            "height": 44,
+            "right": 1048.1875,
+            "bottom": 69.5
+          },
+          {
+            "text": "Demo info",
+            "href": "#demo-info",
+            "visible": true,
+            "x": 1056.1875,
+            "y": 25.5,
+            "width": 68.453125,
+            "height": 44,
+            "right": 1124.640625,
+            "bottom": 69.5
+          },
+          {
+            "text": "Explore services \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 1404.28125,
+            "y": 25.5,
+            "width": 174.921875,
+            "height": 44,
+            "right": 1579.203125,
+            "bottom": 69.5
+          },
+          {
+            "text": "See what we do \u2197",
+            "href": "#services",
+            "visible": true,
+            "x": 395.796875,
+            "y": 536.140625,
+            "width": 180.78125,
+            "height": 52,
+            "right": 576.578125,
+            "bottom": 588.140625
+          },
+          {
+            "text": "Our approach \u2192",
+            "href": "#approach",
+            "visible": true,
+            "x": 545.578125,
+            "y": 540.140625,
+            "width": 123.1875,
+            "height": 44,
+            "right": 668.765625,
+            "bottom": 584.140625
+          }
+        ],
+        "invalidLinks": [],
+        "collisions": [
+          "hero actions"
+        ],
+        "navVisible": true,
+        "images": [],
+        "headingCount": 1,
+        "hasViewport": true,
+        "hasLang": true
+      },
+      "browser": "chromium"
+    }
+  ],
+  "browsers": {
+    "chromium": {
+      "version": "157.0.8103.39"
+    }
+  },
+  "passed": true
+}

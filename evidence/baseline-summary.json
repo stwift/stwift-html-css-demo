@@ -1,0 +1,223 @@
+{
+  "description": "New regression assertions run against the unmodified original source before repairs.",
+  "passed": false,
+  "results": [
+    {
+      "width": 320,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "outside: ['header-cta']",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "Navigation hidden",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 4.5}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]",
+        "Focus not visible: northline.",
+        "Unexpected keyboard focus order",
+        "Skip link missing from keyboard navigation",
+        "Navigation unavailable for #services",
+        "Navigation unavailable for #approach",
+        "Navigation unavailable for #demo-info"
+      ]
+    },
+    {
+      "width": 320,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 375,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "Navigation hidden",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 4.5}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]"
+      ]
+    },
+    {
+      "width": 375,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 390,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "Navigation hidden",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 4.5}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]",
+        "Focus not visible: northline.",
+        "Unexpected keyboard focus order",
+        "Skip link missing from keyboard navigation",
+        "Navigation unavailable for #services",
+        "Navigation unavailable for #approach",
+        "Navigation unavailable for #demo-info"
+      ]
+    },
+    {
+      "width": 390,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 480,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "Navigation hidden",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 4.5}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]"
+      ]
+    },
+    {
+      "width": 480,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 481,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "Navigation hidden",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 3}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]"
+      ]
+    },
+    {
+      "width": 481,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 768,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "Navigation hidden",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 3}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]",
+        "Focus not visible: northline.",
+        "Unexpected keyboard focus order",
+        "Skip link missing from keyboard navigation",
+        "Navigation unavailable for #services",
+        "Navigation unavailable for #approach",
+        "Navigation unavailable for #demo-info"
+      ]
+    },
+    {
+      "width": 768,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 850,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "Navigation hidden",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 3}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]"
+      ]
+    },
+    {
+      "width": 850,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 851,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "obscuredText: ['SMALL']",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "A link is hidden or its target is shorter than 44px",
+        "Text obscured after scroll: ['SMALL']",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 3}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]"
+      ]
+    },
+    {
+      "width": 851,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 1024,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 3}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]"
+      ]
+    },
+    {
+      "width": 1024,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 1280,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 3}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]",
+        "Focus not visible: northline.",
+        "Focus not visible: Services",
+        "Focus not visible: Approach",
+        "Focus not visible: Contact",
+        "Focus not visible: Explore services ↗",
+        "Focus not visible: See what we do\n↗",
+        "Focus not visible: Our approach\n→",
+        "Skip link missing from keyboard navigation",
+        "Navigation unavailable for #demo-info"
+      ]
+    },
+    {
+      "width": 1280,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 1440,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 3}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]"
+      ]
+    },
+    {
+      "width": 1440,
+      "state": "before",
+      "failures": []
+    },
+    {
+      "width": 1920,
+      "state": "after",
+      "failures": [
+        "Page shell masks overflow",
+        "invalidLinks: ['mailto:demo@example.invalid']",
+        "A link is hidden or its target is shorter than 44px",
+        "Text contrast: [{'element': 'header-cta', 'ratio': 4.12, 'required': 4.5}, {'element': 'eyebrow', 'ratio': 4.22, 'required': 4.5}, {'element': 'hero-description', 'ratio': 4.04, 'required': 4.5}, {'element': 'button button-primary', 'ratio': 4.14, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 2.64, 'required': 4.5}, {'element': 'panel-menu', 'ratio': 2.64, 'required': 4.5}, {'element': 'mini-label', 'ratio': 2.6, 'required': 4.5}, {'element': 'positive-pill', 'ratio': 3.18, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'SMALL', 'ratio': 3.02, 'required': 4.5}, {'element': 'note-check', 'ratio': 2.69, 'required': 3}, {'element': 'SMALL', 'ratio': 2.65, 'required': 4.5}, {'element': 'partner-intro', 'ratio': 2.29, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'SPAN', 'ratio': 4.32, 'required': 4.5}, {'element': 'section-kicker', 'ratio': 3.79, 'required': 4.5}, {'element': 'P', 'ratio': 2.99, 'required': 4.5}, {'element': 'service-icon mint', 'ratio': 2.16, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon peach', 'ratio': 2.17, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'service-icon lavender', 'ratio': 3.46, 'required': 4.5}, {'element': 'P', 'ratio': 3.21, 'required': 4.5}, {'element': 'card-arrow', 'ratio': 3.03, 'required': 4.5}, {'element': 'SPAN', 'ratio': 3.51, 'required': 4.5}]"
+      ]
+    },
+    {
+      "width": 1920,
+      "state": "before",
+      "failures": []
+    }
+  ]
+}

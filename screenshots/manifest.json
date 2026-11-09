@@ -1,0 +1,95 @@
+{
+  "after_mobile_viewport.png": {
+    "sha256": "a0194be8d37a2897a3517a6589e9646d3e6bbed9accbacef1886611518d46cac",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "full_page": false,
+    "state": "after",
+    "path": "/index.html"
+  },
+  "after_mobile.png": {
+    "sha256": "89ee39a7f095ef5b03a03f4e647ff2d19684747456ad8069298cc1ff3d483f97",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "full_page": true,
+    "state": "after",
+    "path": "/index.html"
+  },
+  "before_mobile_viewport.png": {
+    "sha256": "130f5b7f529e4ba416f09f06f6d5630e015d6383c227630143a35748aef8dc80",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "full_page": false,
+    "state": "before",
+    "path": "/index.html?broken=1"
+  },
+  "before_mobile.png": {
+    "sha256": "96478aa83e9f86a111e2282102c1a4cd9bc6e0e47fabb147779ec67fe4ab2e86",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "full_page": true,
+    "state": "before",
+    "path": "/index.html?broken=1"
+  },
+  "after_desktop_viewport.png": {
+    "sha256": "f931d02d343396d72ddb7ee9767a262983178e6534a176bbd9623f5c38948d91",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "full_page": false,
+    "state": "after",
+    "path": "/index.html"
+  },
+  "after_desktop.png": {
+    "sha256": "63bfbb006340f89c000910ae5588ff2e08472e762c46f94c04d9bc4352d96aaa",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "full_page": true,
+    "state": "after",
+    "path": "/index.html"
+  },
+  "before_desktop_viewport.png": {
+    "sha256": "85114d7de596117643681147db11b5427e4903270371e245b25464a384084d25",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "full_page": false,
+    "state": "before",
+    "path": "/index.html?broken=1"
+  },
+  "before_desktop.png": {
+    "sha256": "36a79f35b3c70cd7a00b52144ec8aba8a4d8976278d0ef7ddf4f25b9617f2386",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "full_page": true,
+    "state": "before",
+    "path": "/index.html?broken=1"
+  },
+  "_sources": {
+    "index.html": "fd0d5bfc0dec9b663f25d39c646af7503ed68e1072d3b9445675cbaa09b09540",
+    "assets/style.css": "98d20cfffdd1fd296e7c5f6de280adc8c24ee5207be39ba04ba92ca770aafd61",
+    "assets/broken.css": "7d24f1b5ed497f83e194d713f3bcdf98e6ba81ab0e5709ecb8b6856b6e22b5ea"
+  },
+  "_environment": {
+    "platform": "Windows",
+    "playwright": "1.64.1",
+    "browser": {
+      "version": "157.0.8103.39"
+    },
+    "device_scale_factor": 1
+  }
+}

@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "playwright", "version": "1.64.1", "vulns": []}, {"name": "pillow", "version": "13.0.0", "vulns": []}, {"name": "greenlet", "version": "3.5.6", "vulns": []}, {"name": "pyee", "version": "14.0.0", "vulns": []}, {"name": "typing-extensions", "version": "4.16.0", "vulns": []}], "fixes": []}

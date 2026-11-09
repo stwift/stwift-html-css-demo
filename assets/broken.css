@@ -1,0 +1,81 @@
+/* This file ONLY applies in demo mode (?broken=1). The defects are deliberate.
+   The completed fix is the default design in style.css. */
+.broken .site-header .nav {
+  gap:8px;
+  transform:translateX(70px)
+}
+.broken .hero-content {
+  transform:translateY(66px)
+}
+.broken .hero-visual {
+  transform:translateX(95px)
+}
+.broken .hero-visual .visual-panel {
+  width:112%
+}
+.broken .hero-actions .button-primary {
+  transform:translateX(55px)
+}
+.broken .service-grid {
+  grid-template-columns:1.4fr .7fr 1.2fr
+}
+.broken .service-card:nth-child(2) {
+  transform:translateY(48px)
+}
+@media(max-width:850px) {
+  .broken .site-shell {
+    overflow:visible
+  }
+  .broken .site-header {
+    width:650px;
+    min-width:650px
+  }
+  .broken .site-header .nav {
+    display:flex;
+    transform:none;
+    white-space:nowrap
+  }
+  .broken .hero {
+    width:760px;
+    grid-template-columns:440px 340px;
+    gap:15px;
+    min-height:680px;
+    align-items:start
+  }
+  .broken .hero-content {
+    transform:translateY(55px)
+  }
+  .broken .hero h1 {
+    font-size:58px;
+    white-space:nowrap
+  }
+  .broken .hero-description {
+    width:520px
+  }
+  .broken .hero-visual {
+    width:410px;
+    transform:translateX(80px)
+  }
+  .broken .hero-visual .visual-panel {
+    width:500px
+  }
+  .broken .hero-actions {
+    flex-wrap:nowrap
+  }
+  .broken .partners {
+    min-width:750px;
+    flex-direction:row
+  }
+  .broken .partner-items {
+    flex-wrap:nowrap
+  }
+  .broken .services {
+    width:780px
+  }
+  .broken .service-grid {
+    grid-template-columns:repeat(3,1fr)
+  }
+  .broken .service-card {
+    min-width:230px
+  }
+}

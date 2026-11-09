@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An original HTML and CSS responsive-layout demonstration by STWIFT.">
+  <title>Northline — Responsive Layout Demo | STWIFT</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="data:,">
+  <script>
+    // This original, self-contained demo intentionally supports two states.
+    // ?broken=1 displays reproducible layout defects; ?broken=0 (or no query) is fixed.
+    if (new URLSearchParams(location.search).get('broken') === '1') {
+      document.documentElement.classList.add('broken');
+    }
+  </script>
+  <link rel="stylesheet" href="assets/broken.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="Northline home">
+        <span class="brand-icon" aria-hidden="true"><span></span><span></span></span>
+        <span>northline<span class="brand-stop">.</span></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#demo-info">Demo info</a>
+      </nav>
+      <a class="header-cta" href="#services">Explore services <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> DIGITAL DESIGN STUDIO · DEMO</div>
+          <h1 id="hero-title">Web experiences<br>that <em>just work.</em></h1>
+          <p class="hero-description">Thoughtful design, clear messaging, and responsive layouts that feel right on every screen.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#services">See what we do <span aria-hidden="true">↗</span></a>
+            <a class="button button-text" href="#approach">Our approach <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-proof"><span class="proof-avatars" aria-hidden="true"><i>✳</i><i>✦</i><i>◇</i></span><span>Built to look great on desktop and mobile.</span></div>
+        </div>
+        <div class="hero-visual" role="img" aria-label="Fictional website dashboard illustration. All figures are sample data.">
+          <div class="decor-orb orb-one"></div><div class="decor-orb orb-two"></div>
+          <div class="visual-panel">
+            <div class="panel-top"><div class="panel-dots"><span></span><span></span><span></span></div><span>northline / overview</span><span class="panel-menu">•••</span></div>
+            <div class="panel-content">
+              <div class="visual-row"><span class="mini-label">SAMPLE DATA</span><span class="positive-pill">↗ 24%</span></div>
+              <h2>Make an impact.</h2>
+              <p>Simple ideas, beautifully executed.</p>
+              <div class="chart" aria-hidden="true"><span style="--n:42%"></span><span style="--n:64%"></span><span style="--n:53%"></span><span style="--n:78%"></span><span style="--n:66%"></span><span style="--n:93%"></span><span style="--n:84%"></span></div>
+              <div class="panel-bottom"><span><strong>12.8k</strong><small>monthly views</small></span><span><strong>+38%</strong><small>engagement</small></span></div>
+            </div>
+          </div>
+          <div class="floating-note"><span class="note-check">✓</span><span><strong>Mobile-ready</strong><small>Every screen counts</small></span></div>
+        </div>
+      </section>
+
+      <section class="partners" aria-label="Demo attributes">
+        <div class="partner-intro">A BETTER EXPERIENCE, ON EVERY DEVICE</div>
+        <div class="partner-items"><span>● Pixel care</span><span>◇ Responsive</span><span>✳ Clarity first</span><span>↗ Built to scale</span></div>
+      </section>
+
+      <section class="services" id="services" aria-labelledby="services-title">
+        <div class="section-heading"><span class="section-kicker">WHAT WE DO</span><h2 id="services-title">Good design. No friction.</h2><p>Every part of your website should have a purpose.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-icon mint" aria-hidden="true">⌘</span><h3>Clean layouts</h3><p>Thoughtful spacing and clear visual hierarchy.</p></article>
+          <article class="service-card"><span class="service-icon peach" aria-hidden="true">▣</span><h3>Responsive pages</h3><p>Layouts that adapt to phones, tablets, and desktop screens.</p></article>
+          <article class="service-card"><span class="service-icon lavender" aria-hidden="true">✳</span><h3>Polished details</h3><p>Consistent buttons, alignment, and visual styling.</p></article>
+        </div>
+      </section>
+      <section class="bottom-note" id="approach" aria-labelledby="approach-title"><h2 id="approach-title">STWIFT DEMO PROJECT</h2><div><p>Our approach: reproduce the issue, fix its cause, and test across screen sizes.</p><p id="demo-info">This is a self-created demonstration project, not a completed client order.</p></div></section>
+    </main>
+  </div>
+</body>
+</html>
