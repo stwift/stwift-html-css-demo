@@ -4,6 +4,15 @@
 
 Northline is a fictional landing page for demonstrating small HTML/CSS layout and responsive repairs. The same content has an intentionally broken **Before** state and a corrected **After** state. Dashboard numbers are sample data, not business results. This is a technical portfolio sample by STWIFT, not a testimonial or client case study.
 
+## Live Demo
+
+Explore the interactive HTML/CSS demonstration hosted on GitHub Pages:
+
+- **After (fixed version):** https://stwift.github.io/stwift-html-css-demo/
+- **Before (with intentional issues):** https://stwift.github.io/stwift-html-css-demo/?broken=1
+
+This is a self-created demonstration project, not a completed client order.
+
 ## Run the website
 
 Open `index.html` in a modern browser. No installation, build, account, external font, API, or network service is required for the page itself. For a local HTTP preview, from the project folder with a working Python 3 installation:
